@@ -1,0 +1,223 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 200px;
+}
+
+.entre-em-contato {
+    color: white;
+    background-color: #C51111;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.mario {
+    width: 500px;
+}
+
+
+.caixa {
+    width: 40%;
+}
+
+.video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+
+}
+
+body {
+    height: 100vh;
+}
+.mae {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 51%, rgba(0, 0, 0, 1) 100%);
+    position: fixed;
+    top: 0;
+}
+.link img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.caixa p {
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 60px;
+    cursor: pointer;
+
+}
+
+.header a {
+    align-items: center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #C51111;
+    border-radius: 4px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+
+    
+}
+
+.header a:hover {
+    color:rgb(121, 121, 121);
+    background-color: #610909;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    transition: 0.5s;
+    
+}
+
+.entre-em-contato:hover {
+    background-color: #610909;
+    color: rgb(121, 121, 121);
+    transition: 0.5s ;
+}
+.fale-conosco{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 250px;
+    left: -8%;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    transform: translateX(-50%);
+    transition: 0.5s ease-in-out;
+}
+
+.fale-conosco button {
+    display: flex;
+    align-items: center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #C51111;
+    border-radius: 4px;
+  width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+.fale-conosco button:hover {
+    background-color: #610909;
+    color: rgb(121, 121, 121);
+    transition: 0.5s ;
+}
+.fale-conosco input {
+    border: 1px solid gray;
+    padding-left: 5px;
+    height: 40px;
+    border-radius: 5px ;
+    outline-color: #18d80f;
+
+}
+.fale-conosco textarea {   
+    width: 270px;
+    height: 100px; 
+    border: 1px solid gray;
+    padding-left: 5px;
+    height: 40px;
+    border-radius: 5px ;
+    outline-color: #18d80f;
+    max-width: 300px;
+    max-height: 250px;
+    min-width: 200px;
+    min-height: 80px;
+}
+.mascara-form {
+    visibility: hidden;
+     height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 51%, rgba(0, 0, 0, 1) 100%);
+    position: fixed;
+    top: 0;
+
+}
+
+@media(max-width: 1100px) {
+
+    .mae {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .caixa {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .mario {
+        width: 80vw;
+    }
+
+    p {
+        display: none;
+    }
+    .header img {
+        display: none;
+        margin: 10px;
+    }
+    .fale-conosco {
+        position: absolute;
+        visibility: hidden;
+        
+    }
+}
+
+
