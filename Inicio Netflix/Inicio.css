@@ -1,0 +1,219 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  margin: 0;
+
+}
+
+body {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.fundo { 
+    background-color: #161616;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.quem {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+
+    font-size: 30px;
+    color: aliceblue;
+    letter-spacing: 4px;
+}
+
+.sombra-fundo {
+    -webkit-box-shadow: 14px 25px 39px 10px rgba(0, 0, 0, 1);
+-moz-box-shadow: 14px 25px 39px 10px rgba(0, 0, 0, 1);
+box-shadow: 14px 25px 39px 10px rgba(0, 0, 0, 1);
+ width: 50000px;
+ display: flex;
+ justify-content: center;
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+.sombra-fundo {
+    -webkit-box-shadow: 14px 25px 39px 10px rgba(0, 0, 0, 1);
+-moz-box-shadow: 14px 25px 39px 10px rgba(0, 0, 0, 1);
+box-shadow: 14px 25px 39px 10px rgba(0, 0, 0, 1);
+ width: 50000px;
+ display: flex;
+ justify-content: center;
+ position: absolute;
+ top: -1;
+ right: 0;
+}
+
+
+.foto1 {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    left: 21%;
+    
+    clip-path: view-box;
+    
+    border-radius: 5px;
+}
+
+
+.foto1:hover {
+    border: 2px solid white;
+}
+
+.foto2 {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    left: 33%;
+ 
+    clip-path: view-box;
+
+     border-radius: 5px;
+      border-color: none;
+}
+
+
+.foto2:hover {
+    border: 2px solid white;
+}
+
+.foto3 {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    
+    clip-path: view-box;
+
+     border-radius: 5px;
+      border-color: none;
+}
+
+
+.foto3:hover {
+    border: 2px solid white;
+}
+.foto4 {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    left: 57%;
+
+    clip-path: view-box;
+     border-radius: 5px;
+      border-color: none;
+      
+}
+
+
+.foto4:hover {
+    border: 2px solid white;
+}
+.foto5 {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    left: 69%;
+    
+    clip-path: view-box;
+     border-radius: 5px;
+     border-color: none;
+}
+
+
+.foto5:hover {
+    border: 2px solid white;
+}
+.felipe {
+    position: absolute;
+    top: 58%;
+    left: 21%;
+        color:rgb(102, 102, 102) ;
+    font-weight: 600;
+    font-size: 25px;
+    
+     
+}
+
+.felippe {
+    position: absolute;
+    top: 58%;
+    left: 33%;
+        color:rgb(102, 102, 102);
+    font-weight: 600;
+    font-size: 25px;
+}
+.enzo {
+    position: absolute;
+    top: 58%;
+    left: 45%;
+        color: rgb(102, 102, 102);
+    font-weight: 600;
+    font-size: 25px;
+}
+.mai {
+    position: absolute;
+    top: 58%;   
+    left: 58%;
+        color: rgb(102, 102, 102);
+    font-weight: 600;
+    font-size: 25px;
+}
+.nicolli {
+    position: absolute;
+    top: 58%;
+    left: 71%;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.gerenciar {
+    color: rgb(102, 102, 102);
+    border: solid;
+    border-width: 1px;
+    width: 240px;
+    text-align: center;    
+    font-size: 14px;
+    padding: 14px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 73%;
+    left: 43%;
+}
+.gerenciar:hover {
+    border: 4px solid white;
+    color: aliceblue;
+}
