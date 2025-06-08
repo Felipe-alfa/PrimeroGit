@@ -1,0 +1,53 @@
+
+
+.primeiro {
+    border: solid;
+    background-color: blueviolet;
+    height: 150px;
+    width: 1866px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+.site {
+position: absolute;
+    left: 46%;
+    top: 7%;
+    z-index: 2;
+}
+.um{
+    position: absolute;
+    left: 47%;
+    top: 80%;
+    z-index: 1;
+}
+.Sonho {
+    position: absolute;
+    left: 7%;
+    top: 40%;
+}
+.texto {
+    position: absolute;
+    top: 48%;
+    left: 7%;
+
+    width: 500px;
+    display: flex;
+    margin: 0%;
+    background-color: rgba(212, 0, 255, 0.3);
+
+    border-radius: 1%;
+    border: solid;
+}
+.imagem {
+    position: absolute;
+    top: 45%;
+    left: 80%;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 10px;
+    left: 20px;
+}

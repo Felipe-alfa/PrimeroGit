@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.menu {
+    margin: 44px 0 144px 76px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.link-header {
+    font-weight: 689;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5D5D7D;
+    margin-right: 24px;
+     cursor: pointer;
+     transition: 0.5s;
+     text-decoration: none;
+     cursor: pointer;
+     
+}
+
+.link-header:hover {
+    color: rgb(190, 190, 190);
+    transform: translateY(25px);
+}
+
+.fundo-celular {
+    width: 600px;
+    height: 100vh;
+    background-color: #e0e0e6;
+    z-index: 0;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 68%;
+}
+
+img {
+    width: 456px;
+    height: 561px;
+   position: absolute;
+   left: 61%;
+   top: 30%;
+}
+
+h1 {
+    font-size: 70px;
+    width: 380px;
+    height: 160px;
+    color: #5D5D7D;
+    position: absolute;
+    top: 30%;
+    margin-left: 160px;
+    font-weight: 400;
+}
+
+p {
+        font-size: 28px;
+    width: 380px;
+    height: 160px;
+    color: #c3c3c9;
+    position: absolute;
+    top: 65%;
+    margin-left: 160px;
+    font-weight: 100;
+    
+}
+button {
+    border: none;
+    border-radius: 60px;
+    width:269px ;
+    height: 62px;
+    color: white;
+    background-color: #9499Ea;
+    font-size: 24px;
+    position: fixed;
+    top: 85%;
+    margin-left: 190px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover {
+    color: rgb(190, 190, 190);
+    transform: scale(110%);
+    background-color: #6e71ad;
+}
+
+@media screen and (max-width: 500px) {
+    .conteudo-direita {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .conteudo-esquerda {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+
+
+    .fundo-celular{
+        width: 46vh;
+        height: 60vh;
+        left: 0;
+        top: 40%;
+    }
+    
+    img {
+        width: 271px;
+        height: 322px;
+        left: 60px;
+        top: 455px;
+    }
+    h1 {
+        width: 268px;
+        height: 104;
+        font-size: 52px;
+        font-weight: 300;
+        line-height: 52px;
+        text-align: center;
+        top: 45px;
+        left: -97px;
+    }
+    p {
+         width: 296px;
+        height: 96;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 48px;
+        text-align: center;
+        top: 166px;
+        left: -105px;
+    }
+    button {
+        top: 328px;
+        left: -120px;
+    }
+    .menu {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,88 @@
+
+css
+ estilização do site
+
+
+caracteristicas principais
+
+
+-atributos
+-valor
+
+
+
+Pulo do gato 
+sempre começar com margin 0
+padding 0
+ee box sizing borderbox
+
+
+
+
+palavras chaves 
+-perseverança
+-giovanna
+-trofeu
+
+--------------------------------
+java script
+
+faz o site ficar inteligente, motor do site
+
+document = html
+
+queselector = buscar alguma coisa
+
+
+
+
+variaveis 'let'
+
+forma de guardar informaçoes no js
+
+let numero = 121345
+
+let texto = 'akiefnoeifa'
+
+let teste = document.queselector = classe do html
+            (html)  (seletor de classe)
+---------------------------------
+
+
+funçao 'function'
+
+organiza e apenas chama as variaveis quando eu chamar
+
+function teste () {
+    console.log(qualquer coisa)
+}
+
+
+-------------------------------
+
+
+chamar 'console.log
+
+
+chama as variaveis
+console.log(numero)
+
+-------------------------
+
+
+let numero = 123
+
+let texto = "paro paro paro"
+
+let provar = "to aqui e sou folgado"
+
+function teste (){
+    console.log(numero)
+    console.log(texto)
+    console.log(provar)
+}
+
+console.log(teste)
+
+
+
